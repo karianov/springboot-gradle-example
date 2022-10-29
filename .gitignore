@@ -1,14 +1,25 @@
-.gradle
-/build/
+# Java
+*.class
 
-# Ignore Gradle GUI config
-gradle-app.setting
+# Build folders
+/bin
+/build
+.gradle/
 
-# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+# Package files
+*.jar
+*.war
+*.ear
 !gradle-wrapper.jar
+
+# Gradle GUI config
+gradle-app.setting
 
 # Cache of project
 .gradletasknamecache
 
-# # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
-# gradle/wrapper/gradle-wrapper.properties
+# OS files
+.*
+!.gitignore
+!.git*
+*~
