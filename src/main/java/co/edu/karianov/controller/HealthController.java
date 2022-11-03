@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import co.edu.karianov.controller.response.ServiceStatusResponse;
 
-@RestController(value = "/v1")
+@RestController
 public class HealthController {
 
 	@GetMapping("health")
